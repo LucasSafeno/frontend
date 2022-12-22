@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+div{
+    border: 1px solid blue;
+    width: 200px;
+    height: 200px;
+}
+
+/* Relative => elemento posiciona relativamente a sua posição original*/
+/* Absolute => Elemento é posicionado relativamente ao ultimo elemento antecessor que não for static*/
+/* Fixed => Elemento positionado  relativamente a janela do navegador*/
+/* Sticky => Elemento positionado  na posição do scroll*/
+.container{
+    background: gray;
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+#teste{
+    position: sticky;
+    background: red;
+    top: 0;
+    width: 100%;
+    height: 65px;
+}
