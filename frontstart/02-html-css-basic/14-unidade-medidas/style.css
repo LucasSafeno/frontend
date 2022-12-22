@@ -1,0 +1,27 @@
+body{
+    font-size: 14px;
+}
+
+header{
+    background-color: purple;
+    height: 10vh;
+    width: 100vw;
+}
+
+/*  em vs rem*/
+
+/*
+    em ====> relativo a classe pai
+
+*/
+
+div{
+    font-size: 1.2em;
+    /* primeiro ===> 14 * 1.2 = 16,8px*/
+    /* segundo ===> 16,8 * 1.2 = 20,16px*/
+}
+
+/*
+    rem ====> relativo ao body
+
+*/
