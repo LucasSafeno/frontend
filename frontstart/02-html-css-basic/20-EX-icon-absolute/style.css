@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.input-container{
+    position: relative;
+    margin: 100px;
+}
+input{
+    height: 45px;
+    width: 300px;
+    padding-left: 35px;
+}
+
+svg{
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 10px;
+}
