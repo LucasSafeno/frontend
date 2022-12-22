@@ -1,0 +1,18 @@
+/* classe criadas pelo dev */
+.bold{
+    font-weight: bold;
+}
+/* Seleconar varios ao mesmo tempo */
+h1,h2,h3{
+    color: blue;
+}
+
+/* ID - tem que ser único */
+#my_title{
+    font-size: 2rem;
+}
+
+/* por atributos personlizado */
+div[lang]{
+    color: red;
+}
