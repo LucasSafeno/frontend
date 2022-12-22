@@ -1,0 +1,10 @@
+div{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* display: none; */
+    visibility: hidden;
+}
