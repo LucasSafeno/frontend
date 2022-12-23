@@ -1,0 +1,22 @@
+body,button,input,select,textarea{
+    font-family: "Helvetica", arial,sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+}
+
+/*Variaveis*/
+:root{
+    --dark-blue: rgba(148, 48, 84)
+}
+
+div{
+    background-color: var(--dark-blue);
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+}
