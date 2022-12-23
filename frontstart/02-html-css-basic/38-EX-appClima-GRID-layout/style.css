@@ -1,5 +1,7 @@
 body,button,input,select,textarea{
     font-family: "Helvetica", arial,sans-serif;
+    font-family: 'Poppins', sans-serif;
+
 }
 *{
     box-sizing: border-box;
@@ -8,20 +10,73 @@ html,body{
     margin: 0;
 }
 /*Variaveis*/
-
-
-/*=======================*/
-.container{
-    display: grid;
-    /* grid-template-columns: repeat(3, 1fr); / 1fr 1fr 1fr */
-    /* grid-template-columns: minmax(200px, 1fr) 1fr 1fr; */
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-rows: 200px 400px;
-    grid-gap: 1rem 2rem;
+:root{
+    --dark-blue: #1D1D1D;
+    --light-gray: #BFBFC1;
 }
 
-.card{
-    width: 100%;
-    height: 100%;
-    background-color: gray;
+/*=======================*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2, h4{
+    margin-bottom: 5px;
+}
+h4{
+    font-weight: normal;
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+}
+.iphone-container{
+    width: 300px;
+    height: 600px;
+    border: 20px solid black;
+    border-radius: 45px;
+    background: var(--dark-blue);
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 20px;
+}
+
+.iphone-container .notch{
+    width: 180px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 0 0 30px 30px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 90px);
+}
+
+.iphone-container .iphone-menu{
+    width: 90px;
+    height: 2px;
+    border-radius: 8px;
+    background: var(--light-gray);
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 45px);
+}
+
+.iphone-container svg{
+    width: 100px;
+    height: 100px;
+    margin: 40px 0 20px;
+}
+
+.iphone-container .week-wather{
+    color: var(--light-gray);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: left;
+    padding: 0 5px;
+    margin-top: 20px;
 }
