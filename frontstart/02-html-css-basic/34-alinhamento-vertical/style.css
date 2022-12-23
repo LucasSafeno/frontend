@@ -1,0 +1,52 @@
+body,button,input,select,textarea{
+    font-family: "Helvetica", arial,sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+}
+/*Variaveis*/
+
+
+/*=======================*/
+.container{
+    background-color: rgb(230, 203, 230);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: gray;
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+/*
+    display: flex;
+    flex-direction: row (linha) diretação do flex
+    justify-content: ==> alinhamento horizontal
+    align-itens: ===> alinhamento vertical
+
+
+    display: flex;
+    flex-direction: column (coluna) ==> diretação do flex
+    justify-content: ==> alinhamento vertical
+    align-itens: ===> alinhamento horizontal
+
+    opções
+
+    center ~~> alinha no centro
+    space-around ~~> espaço divido igual entre elementos
+    space-between ~~> espaço entre só no meio
+    space-evenly ~~> espaço igual em todos os lados
+    flex-star ~~> no inicio
+    flex-end ~~> no fim
+
+/*
