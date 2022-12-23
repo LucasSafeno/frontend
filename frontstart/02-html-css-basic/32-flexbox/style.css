@@ -1,0 +1,57 @@
+body,button,input,select,textarea{
+    font-family: "Helvetica", arial,sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+}
+/*Variaveis*/
+
+
+/*=======================*/
+.container{
+    width: 150px;
+    height: 300px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.light{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+
+
+/*
+    display: flex;
+    flex-direction: row (linha) diretação do flex
+    justify-content: ==> alinhamento horizontal
+    align-itens: ===> alinhamento vertical
+
+
+    display: flex;
+    flex-direction: column (coluna) ==> diretação do flex
+    justify-content: ==> alinhamento vertical
+    align-itens: ===> alinhamento horizontal
+
+    opções
+
+    center ~~> alinha no centro
+    space-around ~~> espaço divido igual entre elementos
+    space-between ~~> espaço entre só no meio
+    space-evenly ~~> espaço igual em todos os lados
+    flex-star ~~> no inicio
+    flex-end ~~> no fim
+
+/*
