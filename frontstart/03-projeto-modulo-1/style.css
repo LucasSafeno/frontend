@@ -38,6 +38,13 @@ button{
     font-size: 18px;
 }
 
+.title-purple{
+    color: var(--purple);
+}
+.title-green{
+    color: var(--green);
+}
+
 header{
     height: calc(100vh - 65px);
     display: flex;
@@ -53,9 +60,7 @@ header .container img{
     display: none;
 }
 
-header .container h1{
-    color: var(--green);
-}
+
 
 header .container button{
     margin-top: 40px;
@@ -93,9 +98,41 @@ nav ul a svg{
     display: none;
 }
 
-section{
-    height: 1500px;
-    background: purple;
+.about{
+    display: flex;
+    padding: 100px;
+}
+
+.about .container{
+    width: 50%;
+    padding-right: 50px;
+}
+
+.about .img-container{
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.about .img-container img{
+    width: 70%;
+    height: 100%;
+    
+}
+
+.about .img-container .line{
+    width: calc(70% + 50px);
+    height: calc(100% + 50px);
+    border: 1px solid var(--purple);
+
+    position: absolute;
+    top: -25px;
+    left: calc(50% - 70%/2 - 25px);
+
+}
+.about .img-container .line.green{
+    transform: rotate(-3.3deg);
+    color: var(--green);
 }
 
 /*RESPONSIVIDADE*/
