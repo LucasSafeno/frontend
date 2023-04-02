@@ -36,6 +36,7 @@ button{
     color: white;
     font-weight: bold;
     font-size: 18px;
+    margin-bottom: 100px;
 }
 
 .title-purple{
@@ -203,6 +204,24 @@ nav ul a svg{
     .about .img-container{
         margin: 70px 0;
     }
+    .services{
+        padding: 0;
+    }
+
+    .services .services-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-card{
+        height: fit-content;
+    }
+
+    .service-card + .service-card{
+        margin-left: 0;
+        margin-top: 30px;
+        
+    }
 }
 
 /*Tablet*/
@@ -216,6 +235,7 @@ nav ul a svg{
     }
     nav{
         padding: 0 30px;
+        margin-top: 70px;
     }
 
     nav img{
@@ -244,6 +264,7 @@ nav ul a svg{
         top: unset;
     }
 
+
     nav ul a{
         font-size: 12px;
     }
@@ -253,7 +274,12 @@ nav ul a svg{
         margin: 0 auto 10px;
     }
     .about{
+        margin-top: 50px;
         padding: 40px;
+    }
+
+    .serives .services-container.service-card{
+        max-width: 350px;
     }
   
 }
