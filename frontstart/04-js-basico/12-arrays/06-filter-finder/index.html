@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontstart - JavaScript Básico - Array - Filter & Finde</title>
+</head>
+<body>
+    
+
+    <script>
+        const clients =[
+            {name:'Lucas', lastName:'Tenório', age:'28'},
+            {name:'Thauanna', lastName:'Santos', age:'23'},
+            {name:'Daniel', lastName:'Tenório', age:'27'},
+            {name:'Edna', lastName:'Gomes', age:'51'},
+            {name:'Angelo', lastName:'Tenório', age:'52'},
+            {name:'Lucas', lastName:'Gomes', age:'52'}
+        ];
+
+        const numbers = [1,2,3,4,5];
+
+        // finder e filter
+        //console.log(clients.find(item => item.name === 'Lucas')); // returna o primeiro, caso  haja algum parecido
+        //console.log(clients.filter(item => item.lastName === 'Gomes'));
+        console.log(clients.filter(item => item.age < '25'));
+
+
+    </script>
+</body>
+</html>
