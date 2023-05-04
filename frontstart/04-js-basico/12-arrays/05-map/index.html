@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FrontStart - JavaScript  Básico - Array - Map</title>
+    </head>
+    <body>
+        
+        <script>
+            let numbers = [1,2,3,4,5,6];
+
+            let double = numbers.map((value,index,array) => value *2);
+            //console.log(double);
+
+            let name = ["Lucas", "Thauanna", "Daniel", "Angelo", "Edna"];
+            console.log(name.map(name => name + " Tenório"));
+
+            let clients = [
+                {name: "Lucas", lastName: "Tenório"},
+                {name: "Thauanna", lastName: "Santos"}
+            ];
+
+            let returnClients = clients.map(client => `${client.name} ${client.lastName}` );
+            console.log(returnClients);
+        </script>
+    </body>
+</html>
