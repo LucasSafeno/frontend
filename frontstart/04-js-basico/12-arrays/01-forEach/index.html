@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontStart - JavaScript - Básico - Arays - forEach</title>
+</head>
+<body>
+
+    <script>
+        const number = [1,2,3,4]; // number
+        const fruits = ["Orange", "Apple"]; // strings
+        const clients = [
+            {id:1, name: 'Lucas'},
+            {id:2, name: 'Thauanna'}
+        ] // Object
+
+        clients.forEach( (value,index,array) =>{
+            //console.log('Value', value, index)
+           /* if(value === 'Apple'){
+                console.log(index)
+            } */
+
+            console.log(value.name)
+        })
+    </script>
+    
+</body>
+</html>
