@@ -1,0 +1,31 @@
+h1{
+    font-size: 28px;
+}
+
+body{
+    background: #E5E5E5;
+    font-family: sans-serif;
+}
+
+.card{
+    background-color: white;
+    width: 300px;
+    border-radius: 16px;
+    min-height: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.bonus{
+    color: rgb(215, 169, 54);
+    border: 1px solid rgb(215, 169, 54);
+}
+
+.special-offer{
+    background-color: blueviolet;
+}
