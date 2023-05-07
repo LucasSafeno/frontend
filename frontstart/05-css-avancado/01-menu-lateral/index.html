@@ -5,9 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FrontStart - CSS Avançado - Menu lateral</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet/less" type="text/css" href="style.less" />
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
+    <div id="app">
+        <div class="top-menu">
+            <i id="menu" data-feather="menu"></i>
+        </div>
+
+        <div class="lateral-menu" id="lateral-menu">
+            <ul>
+                <li><a href="#"><i  data-feather="search"></i>Search</a></li>
+                <li><a href="#"><i  data-feather="activity"></i>Dashboard</a></li>
+                <li><a href="#"><i  data-feather="bar-chart"></i>Estatisticas</a></li>
+                <li><a href="#"><i  data-feather="download"></i>Download</a></li>
+                <li><a href="#"><i  data-feather="clipboard"></i>Relatórios</a></li>
+            </ul>
+        </div>
+
+    </div>
     
+
+
+    <!-- LESS -->
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+    <!-- feather icons-->
+    <script>
+        feather.replace()
+      </script>
+      <!-- Cutmo js-->
+      <script src="js.js"></script>
 </body>
 </html>
