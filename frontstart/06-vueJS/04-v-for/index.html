@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        
+        <div id="app">
+          <ul>
+             <!-- <li v-for="(item, index) in list" :key="item.id"> !-->
+            <li v-for="(item, index) in list" :key="index">    
+                {{item}}
+            </li>
+          </ul>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
