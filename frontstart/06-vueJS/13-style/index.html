@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <title>FrontStart - VueJS - Classes</title>
+    </head>
+    <body>
+        
+        <div id="app">
+            <div class="card" :style="carColorStyle, carFontStyle" v-for="(car, index) in offersList" :key="index">
+                <img :src="car.img">
+                <h1>{{car.title}}</h1>
+                <p class="price">R$ {{car.price}}</p>
+                <p>{{car.description}}</p>
+            </div>
+            
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
