@@ -1,0 +1,22 @@
+.wrapper{
+  display: grid;
+ /* grid-template-columns: repeat(2, 200px) 50%;*/ 
+  grid-template-columns: minmax(200px, 40%) 200px 200px; 
+  /*
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  */
+  grid-gap: 10px;
+  grid-template-rows: 200px 200px 200px;
+  grid-auto-rows:  200px;
+
+}
+
+.wrapper div{
+  background-color: royalblue;
+  padding: 1rem;
+}
+
+.wrapper div:nth-child(even){
+  background-color: skyblue;
+}
