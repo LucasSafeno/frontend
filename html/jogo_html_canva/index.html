@@ -20,35 +20,29 @@
             // Obetendo contexto gráfico
             var context = canvas.getContext("2d") ;
 
-        //     // Preenchimento vermelho
-        //     context.fillStyle = 'red';
-        //     context.fillRect(50,50, 100, 100);
+                // Primeiro Arco
 
-        //     // contorno azul e espessura de 3px
-        //     context.lineWidth = 3;
-        //     context.strokeStyle = 'blue';
-        //     context.strokeRect(50, 50, 100, 100);
-        // 
-        
-            
-        // Inicia o caminho ( apaga anterior)
-        context.beginPath();
+            // Novo path
+            context.beginPath();
+            // Desenha
+            context.arc(50, 50, 40, 90*Math.PI/180, 270*Math.PI/180,false);
+            // Preenchimento
+            context.fill();
+            // Contorno
+            context.stroke();
 
-        // Desenha uma estrela.
-        context.moveTo(75, 250); // Ponto inicial
-        context.lineTo(150, 50);
-        context.lineTo(225, 250);
-        context.lineTo(50, 120);
-        context.lineTo(250, 120);
-        context.lineTo(75, 250);
-        
+                    // Segundo Arco
 
-        // configura a linha
-        context.lineWidth = 2;
-        context.strokeStyle ='red'
+            context.beginPath();
+            context.arc(150, 50, 40, 90*Math.PI/180, 270*Math.PI/180,true);
+            context.fill();
+            context.stroke();
 
-        // traça as linhas do comando
-        context.stroke();
+
+            context.beginPath();
+            context.arc(250, 50, 40, 0, 2*Math.PI);
+            context.fill();
+            context.stroke();
         </script>
     </canvas>
     
